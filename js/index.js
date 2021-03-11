@@ -40,3 +40,35 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+//nav bar items creation
+// const addNavitems = document.querySelector('#container header nav')
+// addNavitems.textContent = 'Services';
+
+//add slogan 
+const sloganText = document.querySelector('.cta-text h1');
+sloganText.textContent = "DOM Is Awesome";
+
+//add button words
+const buttonWords = document.querySelector('.cta-text button');
+buttonWords.textContent = "Get Started";
+
+//add rounded image
+const roundImage = document.querySelector('#cta-img');
+roundImage.src = "img/header-img.png"
+
+//add titles and descriptions
+const addTitle1 = document.querySelector('.top-content(0) .text-content h4');
+addTitle1.textContent = "Features";
+const addDescriptions1 = document.querySelector('.top-content(0) .text-content p');
+addDescriptions1.textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+// const addTitle2 = document.querySelector('.top-content .text-content h4');
+// addTitle2.textContent = "Features";
+// const addDescriptions2 = document.querySelector('.top-content .text-content p');
+// addDescriptions2.textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+
+//add second image
+const secondImage = document.querySelector('.middle-img');
+secondImage.src = "/img/mid-page-accent.jpg"
